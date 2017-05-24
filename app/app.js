@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import BasicApp from './components/stackNavigator/BasicApp';
+import SimpleStack from './components/stackNavigator/ModalStack';
 
 class App extends Component {
 	render () {
-		return <BasicApp/>
+		return <SimpleStack/>
 	}
 }
 export default App;
