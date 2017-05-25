@@ -11,7 +11,7 @@ export default class MainScreen extends Component {
       <Button
         title="This is MainScreen'Button'title"
         onPress={() =>
-          navigate('Profile', { name: 'ProfileScreenTitle' })
+          navigate('BasicApp2', { name: 'ProfileScreenTitle' })
         }
       />
     );
